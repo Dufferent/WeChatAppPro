@@ -1,0 +1,36 @@
+<view class='title'>Linux WeChat</view>
+<navigator url='/pages/logs/logs' open-type="switchTab">
+  <view class='Jump'>Jump to Logs</view>
+</navigator>
+<scroll-view class='scroll_c' scroll-x="{{true}}">
+  <view class='scroll_top_c'>
+    <view class='scroll_view_c'>op_1</view>
+    <view class='scroll_view_c'>op_2</view>
+    <view class='scroll_view_c'>op_3</view>
+    <view class='scroll_view_c'>op_4</view>
+    <view class='scroll_view_c'>op_5</view>
+  </view>
+</scroll-view>
+<scroll-view class='scroll_c_er' scroll-y="{{true}}">
+  <view class='scroll_top_c_er'>
+    <view class='scroll_view_c_er'>op_1</view>
+    <view class='scroll_view_c_er'>op_2</view>
+    <view class='scroll_view_c_er'>op_3</view>
+    <view class='scroll_view_c_er'>op_4</view>
+    <view class='scroll_view_c_er'>op_5</view>
+    </view>
+</scroll-view>
+<!-- <navigator url='/pages/swiper_page/swiper_page'>
+  <view class='swiper_jump'>Jump to Swiper</view>
+</navigator> -->
+<button style="background:green; width:120px; height:40px" bindtap="jumpbtn">To Swiper</button>
+<button style="background:green; width:120px; height:40px" bindtap="testbtn">To Test</button>
+<button style="background:green; width:120px; height:40px" bindtap="navbtn">To Navi</button>
+<view  class="icon">
+  <icon type="success" size="60"></icon>
+  <view>提交成功，感谢您的使用!</view>
+</view>
+<view  style="padding:50px;">
+  <progress  percent="100" active="{{true}}" show-info></progress>
+</view>
+

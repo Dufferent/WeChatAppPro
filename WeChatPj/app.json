@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/swiper_page/swiper_page",
+    "pages/list_frame/list_frame",
+    "pages/navi/navi",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Linux Wechat App",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#000000"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/首页.png",
+        "selectedIconPath": "/images/首页-按下.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/swiper_page/swiper_page",
+        "text": "贴图"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/list_frame/list_frame",
+        "text": "测试"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

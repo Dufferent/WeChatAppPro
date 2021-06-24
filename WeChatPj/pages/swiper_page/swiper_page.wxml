@@ -1,0 +1,17 @@
+<swiper class='swiper_top' indicator-dots indicator-color="rgb(255,255,255,0.5)" autoplay interval="2000">
+  <swiper-item class='swiper_box'>
+    <image src='/images/1.jpg'></image>
+  </swiper-item>
+  <swiper-item class='swiper_box'>
+     <image src='/images/2.jpg'></image>
+  </swiper-item>
+  <swiper-item class='swiper_box'>
+     <image src='/images/3.jpg'></image>
+  </swiper-item>
+  <swiper-item class='swiper_box'>
+     <image src='/images/4.jpg'></image>
+  </swiper-item>
+  <swiper-item class='swiper_box'>
+     <image src='/images/5.jpg'></image>
+  </swiper-item>
+</swiper>

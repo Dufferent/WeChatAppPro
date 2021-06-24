@@ -1,0 +1,33 @@
+<view style="text-align:center" class="title" bindtap="titletap" data-title="{{title}}"  data-cnt="1" data-name="传参测试">{{title}}</view>
+<text decode>&nbsp;</text> 
+<view style="text-align:center">{{array[cnt]}}</view>
+<view style="color:#ff0000">
+<text decode>&nbsp;</text> 
+  <view>Name:{{it.name}}</view>
+  <view>Ages:{{it.ages}}</view>
+  <view>Sex:{{it.sex}}</view>
+  <view>Job:{{it.job}}</view>
+</view>
+
+<view wx:if="{{cnt==1}}">
+  <view>branch one!</view>
+</view>
+<view wx:elif="{{cnt==2}}">
+  <view>branch two!</view>
+</view>
+<view wx:elif="{{cnt==3}}">
+  <view>branch three!</view>
+</view>
+
+<view wx:for="{{[ 'a','b','c','d','e']}}" wx:key="*this">{{index}}#  branch:{{item}}</view>
+
+<view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i" wx:key="i">
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j" wx:key="j">
+   <scroll-view scroll-x enable-flex>
+    <view  wx:if="{{j<=i}}">
+      {{i}} * {{j}} = {{i*j}}  
+    </view>
+  </scroll-view>
+  </view>
+  <text decode>&nbsp;</text>
+</view>

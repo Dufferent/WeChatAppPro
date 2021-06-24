@@ -1,0 +1,3 @@
+<!--pages/navi/navi.wxml-->
+<text>pages/navi/navi.wxml</text>
+<button style="background:green; width:120px; height:40px" bindtap="backbtn">Back</button>

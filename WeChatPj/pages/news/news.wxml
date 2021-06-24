@@ -1,0 +1,9 @@
+<view class="ground" style="margin-left:10px; margin-right:10px; margin-bottom:10px;" wx:for="{{reallist}}" wx:key="*this" >
+  <image src="{{item.picurl}}" style="width:120px; height:50px"></image>
+  <view class="words">
+    <view style="margin-bottom:5px; font-size:12px;">{{item.title}}</view>
+    <view style="margin-bottom:5px; font-size:10px; color:#ccc">{{item.author}}</view>
+  </view>
+</view>
+
+<button style="width:150px; height:40px; background:green;" bindtap="nextbtn">Next Page</button>
