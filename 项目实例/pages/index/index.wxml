@@ -1,0 +1,75 @@
+<view class="header">
+  <image src="/images/materials/抬头.png" style="width:150px; height:40px;" bindtap="home"></image>
+  <image src="/images/info/信息.png" style="width:50px; height:40px; margin-left:180px;animation: dh 1s infinite linear" bindtap="info"></image>
+  <button open-type="contact" style="position:absolute; width:50px; height:40px; margin-left:330px; opacity:0;"></button>
+</view>
+
+<swiper class="theme" indicator-dots autoplay interval="3000">
+  <swiper-item>
+    <image src="/images/materials/theme1.png" style="width:100%; height:150px;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/materials/theme2.jpg" style="width:100%; height:150px;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/materials/theme3.jpg" style="width:100%; height:150px;"></image>
+  </swiper-item>
+</swiper>
+
+<scroll-view class="branch" enable-flex scroll-x="{{true}}" style=" margin-top:5px;">
+  <view style="width:500px;height:100px;display:flex;">
+    <view style="display:flex;flex-direction:column;font-size:12px;text-align:center;" bindtap="learn">
+      <image src="/images/materials/学习.png" style="width:60px; height:60px; margin-left:20px; margin-top:5px;"></image>
+      <view style="margin-left:15px;">学习</view>
+    </view>
+    <view style="display:flex;flex-direction:column;font-size:12px;text-align:center;" bindtap="test">
+     <image src="/images/materials/测试.png" style="width:60px; height:60px; margin-left:20px; margin-top:5px;"></image>
+     <view style="margin-left:15px;">测试</view>
+    </view>
+    <view style="display:flex;flex-direction:column;font-size:12px;text-align:center;" bindtap="competi">
+      <image src="/images/materials/竞赛答题.png" style="width:60px; height:60px; margin-left:20px; margin-top:5px;"></image>
+      <view style="margin-left:15px;">竞赛</view>
+    </view>
+    <view style="display:flex;flex-direction:column;font-size:12px;text-align:center;" bindtap="work">
+      <image src="/images/materials/作业.png" style="width:60px; height:60px; margin-left:20px; margin-top:5px;"></image>
+      <view style="margin-left:15px;">作业</view>
+    </view>
+    <view style="display:flex;flex-direction:column;font-size:12px;text-align:center;" bindtap="society">
+      <image src="/images/materials/社区.png" style="width:60px; height:60px; margin-left:20px; margin-top:5px;"></image>
+      <view style="margin-left:15px;">社区</view>
+    </view>
+  </view>
+</scroll-view>
+
+<view class="area" style="padding:60rpx 0 40rpx">
+  <view style="width:500px;height:50px;display:flex;flex-direction:row;">
+    <image src="/images/materials/title-dec.png" style="width:5px;height:15px;"></image>
+    <view>红色历史</view>
+    <text style="margin-left:260px; color:#ccc;" decode bindtap="more_history">更多&gt;</text>
+  </view>
+
+  <view style="width:350px;">
+    <view style="background: rgba(0,0,0,0.3); width:160px; height:120px; position:absolute;margin-left:15px;margin-bottom:5px; display:flex; flex-direction:column;justify-content:center;text-align:center; font-size:15px;color:#ffffff" bindtap="hst1">红色之旅 红星闪闪Red Ride Red Star</view>
+    <view style="background: rgba(0,0,0,0.3); width:160px; height:120px; position:absolute;margin-left:190px;margin-bottom:5px; display:flex; flex-direction:column;justify-content:center;text-align:center; font-size:15px;color:#ffffff" bindtap="hst2">红色记忆 源远流长Red memory has a long history</view>
+    <image src="/images/materials/history1.png" style="width:160px;height:120px;margin-left:15px;margin-bottom:5px;"></image>
+    <image src="/images/materials/history2.png" style="width:160px;height:120px;margin-left:15px;margin-bottom:5px;"></image>
+    <view style="background: rgba(0,0,0,0.3); width:160px; height:120px; position:absolute;margin-left:15px;margin-bottom:5px; display:flex; flex-direction:column;justify-content:center;text-align:center; font-size:15px;color:#ffffff" bindtap="hst3">历史记忆 丰碑长存Historic memory lives on</view>
+    <view style="background: rgba(0,0,0,0.3); width:160px; height:120px; position:absolute;margin-left:190px;margin-bottom:5px; display:flex; flex-direction:column;justify-content:center;text-align:center; font-size:15px;color:#ffffff" bindtap="hst4">星星之火 可以燎原A single spark can start a prairie fire</view>
+    <image src="/images/materials/history3.png" style="width:160px;height:120px;margin-left:15px;margin-bottom:5px;"></image>
+    <image src="/images/materials/history4.png" style="width:160px;height:120px;margin-left:15px;margin-bottom:5px;"></image>
+    <view style="background: rgba(0,0,0,0.3); width:160px; height:120px; position:absolute;margin-left:15px;margin-bottom:5px; display:flex; flex-direction:column;justify-content:center;text-align:center; font-size:15px;color:#ffffff" bindtap="hst5">不畏艰险 奋勇向前To forge ahead through thick and thin</view>
+    <view style="background: rgba(0,0,0,0.3); width:160px; height:120px; position:absolute;margin-left:190px;margin-bottom:5px; display:flex; flex-direction:column;justify-content:center;text-align:center; font-size:15px;color:#ffffff" bindtap="hst6">上海红船 红色伊始Shanghai red boat red at the beginning</view>
+    <image src="/images/materials/history5.png" style="width:160px;height:120px;margin-left:15px;margin-bottom:5px;"></image>
+    <image src="/images/materials/history6.png" style="width:160px;height:120px;margin-left:15px;margin-bottom:5px;"></image>
+  </view>
+</view>
+
+<view class="dymanic" style="padding:60rpx 0 40rpx">
+  <view style="width:500px;height:50px;display:flex;flex-direction:row;">
+    <image src="/images/materials/title-dec.png" style="width:5px;height:15px;"></image>
+    <view>展望未来</view>
+    <text style="margin-left:260px; color:#ccc;" decode bindtap="the_future">更多&gt;</text>
+  </view>
+  
+  <view style="text-align:center;">敬请期待</view>
+</view>

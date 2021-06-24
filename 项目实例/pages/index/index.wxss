@@ -1,0 +1,20 @@
+.header{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border:2px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1px;
+}
+.theme{
+  height: 150px;
+  width: 100%;
+  border:2px solid black;
+  margin-bottom: 1px;
+}
+.branch{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
